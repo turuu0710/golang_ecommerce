@@ -1,11 +1,14 @@
-import controllers
+package controllers
 
+import "github.com/gin-gonic/gin"
 
-import (
+func HashPassword(password string) string {
 
-)
+}
 
+func VerifyPassword(userPassword string, givenPassword string) (bool, string) {
 
+}
 
 func HashPassword (password string) string {
 
@@ -29,6 +32,7 @@ func SearchProduct() gin.HandleFunc{
 
 }
 
+func SearchProduct() gin.HandlerFunc {
 
 func SearchProductByQuery() gin.HandleFunc{
 	
