@@ -7,17 +7,29 @@ import (
 
 
 
-HashPassword
+func HashPassword (password string) string {
 
-VerifyPassword
+}
 
-Signup
+func VerifyPassword (userPassword string, givenPassword string) (bool, string)
 
-Login
+func Signup() gin.HandleFunc {
 
-ProductViewerAdmin
+}
 
-searchProduct()
+func Login() gin.HandlerFunc{
+
+}
+
+func ProductViewerAdmin() gin.HandleFunc{
+
+}
+
+func SearchProduct() gin.HandleFunc{
+
+}
 
 
-searchProductByQuery()
+func SearchProductByQuery() gin.HandleFunc{
+	
+}
